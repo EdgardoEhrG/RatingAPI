@@ -18,6 +18,7 @@ type Advantage = {
 };
 
 export class TopPageModel {
+  _id: string;
   firstLevelCategory: TopLevelCategory;
   secondLevelCategory: string;
   title: string;
